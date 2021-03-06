@@ -1,0 +1,3 @@
+C:/Users/FOLASADE/CLionProjects/p3q4/cmake-build-debug/CMakeFiles/p3q4.dir
+C:/Users/FOLASADE/CLionProjects/p3q4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/FOLASADE/CLionProjects/p3q4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

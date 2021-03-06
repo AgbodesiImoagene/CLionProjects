@@ -1,0 +1,3 @@
+C:/Users/agbod/CLionProjects/p6q1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/agbod/CLionProjects/p6q1/cmake-build-debug/CMakeFiles/p6q1.dir
+C:/Users/agbod/CLionProjects/p6q1/cmake-build-debug/CMakeFiles/edit_cache.dir
