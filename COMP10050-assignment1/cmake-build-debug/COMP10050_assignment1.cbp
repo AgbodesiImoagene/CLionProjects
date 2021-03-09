@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/agbod/CLionProjects/COMP10050-assignment1/help.c">
+			<Option target="COMP10050_assignment1"/>
+		</Unit>
+		<Unit filename="C:/Users/agbod/CLionProjects/COMP10050-assignment1/help.h">
+			<Option target="COMP10050_assignment1"/>
+		</Unit>
 		<Unit filename="C:/Users/agbod/CLionProjects/COMP10050-assignment1/main.c">
 			<Option target="COMP10050_assignment1"/>
 		</Unit>

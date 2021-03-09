@@ -1,17 +1,19 @@
 //
 // Created by Agbodesi Imoagene on 2/22/2021.
+// Functions for DJ-for-an-hour program
 //
 
 #ifndef COMP10050_ASSIGNMENT1_MYLIB_H
 #define COMP10050_ASSIGNMENT1_MYLIB_H
 #define STR_LEN 100
+#define STR_NUM 500
 
-int fileInput(char file[], char str[][STR_LEN], int arraySize);
+int fileInput(FILE *pointer, char str[][STR_LEN]);
 /*
  * Stores data from file in char array
  */
 
-int keyboardInput(char str[][STR_LEN], int arraySize);
+int keyboardInput(char str[][STR_LEN]);
 /*
  * Stores data from keyboard in char array
  */

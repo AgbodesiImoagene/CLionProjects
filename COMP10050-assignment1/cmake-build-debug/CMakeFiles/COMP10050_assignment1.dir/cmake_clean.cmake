@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/COMP10050_assignment1.dir/help.c.obj"
   "CMakeFiles/COMP10050_assignment1.dir/main.c.obj"
   "CMakeFiles/COMP10050_assignment1.dir/mylib.c.obj"
   "COMP10050_assignment1.exe"

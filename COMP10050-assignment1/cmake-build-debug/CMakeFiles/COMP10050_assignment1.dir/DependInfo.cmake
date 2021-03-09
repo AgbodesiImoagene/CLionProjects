@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/agbod/CLionProjects/COMP10050-assignment1/help.c" "C:/Users/agbod/CLionProjects/COMP10050-assignment1/cmake-build-debug/CMakeFiles/COMP10050_assignment1.dir/help.c.obj"
   "C:/Users/agbod/CLionProjects/COMP10050-assignment1/main.c" "C:/Users/agbod/CLionProjects/COMP10050-assignment1/cmake-build-debug/CMakeFiles/COMP10050_assignment1.dir/main.c.obj"
   "C:/Users/agbod/CLionProjects/COMP10050-assignment1/mylib.c" "C:/Users/agbod/CLionProjects/COMP10050-assignment1/cmake-build-debug/CMakeFiles/COMP10050_assignment1.dir/mylib.c.obj"
   )

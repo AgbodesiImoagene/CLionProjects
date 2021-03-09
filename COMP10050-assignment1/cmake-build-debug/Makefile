@@ -142,6 +142,33 @@ COMP10050_assignment1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMP10050_assignment1.dir\build.make CMakeFiles/COMP10050_assignment1.dir/build
 .PHONY : COMP10050_assignment1/fast
 
+help.obj: help.c.obj
+
+.PHONY : help.obj
+
+# target to build an object file
+help.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMP10050_assignment1.dir\build.make CMakeFiles/COMP10050_assignment1.dir/help.c.obj
+.PHONY : help.c.obj
+
+help.i: help.c.i
+
+.PHONY : help.i
+
+# target to preprocess a source file
+help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMP10050_assignment1.dir\build.make CMakeFiles/COMP10050_assignment1.dir/help.c.i
+.PHONY : help.c.i
+
+help.s: help.c.s
+
+.PHONY : help.s
+
+# target to generate assembly for a file
+help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\COMP10050_assignment1.dir\build.make CMakeFiles/COMP10050_assignment1.dir/help.c.s
+.PHONY : help.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -205,6 +232,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... COMP10050_assignment1
+	@echo ... help.obj
+	@echo ... help.i
+	@echo ... help.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
