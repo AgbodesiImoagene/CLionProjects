@@ -228,5 +228,5 @@ void printPlaylist(char str[][STR_LEN], char playlist[][STR_LEN], const int song
     int min, sec;
     min = totalTime / 60;
     sec = totalTime % 60;
-    printf("Total duration: %d:%d. \n", min, sec);
+    printf("Total duration: %d:%02d. \n", min, sec);
 }
