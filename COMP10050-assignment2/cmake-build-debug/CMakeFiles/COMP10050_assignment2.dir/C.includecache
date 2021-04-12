@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/help.c
+help.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/help.h
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/help.h
+stdio.h
+-
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/main.c
+othBoard.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othBoard.h
+othMove.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othMove.h
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othBoard.c
+othBoard.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othBoard.h
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othBoard.h
+help.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/help.h
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othMove.c
+othMove.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othMove.h
+
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/othMove.h
+help.h
+C:/Users/agbod/CLionProjects/COMP10050-assignment2/help.h
+
