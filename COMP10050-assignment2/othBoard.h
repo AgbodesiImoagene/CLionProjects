@@ -7,12 +7,13 @@
 
 #include "help.h"
 
+//Function to initialise board
 void initBoard(square arr[][BOARD_SIZE]);
 
-void printBoard(square arr[][BOARD_SIZE]);
+//Function to print board and return the result of a check for a full board
+int printBoard(square arr[][BOARD_SIZE]);
 
+//Function to update board
 void updateBoard(square arr[][BOARD_SIZE], int x, int y, char colour);
-
-int fullBoard(square arr[][BOARD_SIZE]);
 
 #endif //COMP10050_ASSIGNMENT2_OTHBOARD_H

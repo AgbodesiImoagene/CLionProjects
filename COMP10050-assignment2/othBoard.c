@@ -4,8 +4,26 @@
 
 #include "othBoard.h"
 
-void printBoard(square arr[][BOARD_SIZE]) {
-    for (int i = 0; i < BOARD_SIZE; ++i) {
+void initBoard(square arr[][BOARD_SIZE]) {
+    for (int i = 0; i < BOARD_SIZE; ++i) { //Iterate over board
+        for (int j = 0; j < BOARD_SIZE; ++j) {
+            arr[i][j].squareChar = ' '; //Set squares to empty
+
+            if ((i == 3 || i == 4) && (j == 3 || j == 4))  { //Set initial arrangement of pieces
+                if (i == j)  {
+                    arr[i][j].squareChar = 'W';
+                } else  {
+                    arr[i][j].squareChar = 'B';
+                }
+            }
+        }
+    }
+}
+
+int printBoard(square arr[][BOARD_SIZE]) {
+    int fullBoardCheck = 1; //Holds result of check of whether the board is full or not
+
+    for (int i = 0; i < BOARD_SIZE; ++i) { //Print board outline and square characters
         printf("   ");
         for (int j = 0; j < BOARD_SIZE; ++j) {
             printf(" ---");
@@ -13,6 +31,9 @@ void printBoard(square arr[][BOARD_SIZE]) {
         printf(" \n %d ", i + 1);
         for (int j = 0; j < BOARD_SIZE; ++j) {
             printf("| %c ", arr[i][j].squareChar);
+            if (arr[i][j].squareChar == ' ')  { //Empty spaces indicate board is not full
+                fullBoardCheck = 0; //Update check
+            }
         }
         printf("|\n");
     }
@@ -25,40 +46,13 @@ void printBoard(square arr[][BOARD_SIZE]) {
         printf("  %c ", 'a' + i);
     }
     puts("\n\n");
-}
-
-void initBoard(square arr[][BOARD_SIZE]) {
-    for (int i = 0; i < BOARD_SIZE; ++i) {
-        for (int j = 0; j < BOARD_SIZE; ++j) {
-            arr[i][j].squareChar = ' ';
-        }
-    }
-    arr[3][3].squareChar = 'W';
-    arr[3][4].squareChar = 'B';
-    arr[4][3].squareChar = 'B';
-    arr[4][4].squareChar = 'W';
+    return fullBoardCheck;
 }
 
 void updateBoard(square arr[][BOARD_SIZE], int x, int y, char colour) {
-    for (int i = 0; i < NUM_DIRECTIONS; ++i) {
-        if (arr[x][y].mv.direction[i] == 1)  {
+    for (int i = 0; i < NUM_DIRECTIONS; ++i) { //Iterate through all 8 directions
+        if (arr[x][y].mv.direction[i] == 1)  { //If there is a valid move in this direction flip pieces
             flipSquares(arr, i, x, y, colour, 0);
         }
     }
-}
-
-int fullBoard(square arr[][BOARD_SIZE]) {
-    int check = 1;
-    for (int i = 0; i < BOARD_SIZE; ++i) {
-        for (int j = 0; j < BOARD_SIZE; ++j) {
-            if (arr[i][j].squareChar == ' ')  {
-                check = 0;
-                break;
-            }
-        }
-        if (check == 0)  {
-            break;
-        }
-    }
-    return check;
 }

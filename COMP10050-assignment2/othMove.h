@@ -7,14 +7,16 @@
 
 #include "help.h"
 
-void computeMoves(square arr[][BOARD_SIZE], char colour);
+//Function to compute the moves an return the result of a check for any valid moves
+int computeMoves(square arr[][BOARD_SIZE], char colour);
 
-int anyMoveCheck(square arr[][BOARD_SIZE]);
+//Function to print all available moves in specified format
+void printMoves(square arr[][BOARD_SIZE], char *str);
 
-void printMoves(square arr[][BOARD_SIZE], char* str);
-
+//Function to get move from user in specified format
 void enterMove(square arr[][BOARD_SIZE], char a[]);
 
+//Function to allow user pass turn
 void enterPass(char *str);
 
 #endif //COMP10050_ASSIGNMENT2_OTHMOVE_H

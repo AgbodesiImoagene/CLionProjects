@@ -1,0 +1,40 @@
+COMP10050 Assignment 2
+
+Othello
+Written by Agbodesi Imoagene
+Last updated 16/04/2021
+Github Repository - https://github.com/AgbodesiImoagene/CLionProjects
+
+I decided to use structures to represent the players and hold their names and assigned colours.
+For the board I chose to use structures to hold data about individual squares rather than the entire board.
+The board is a 2 dimensional array of these squares.
+I did this because the state of the squares and the presence of available moves seemed more intrinsically linked to the individual squares than the board.
+The state of each square is represented by a character value with ' ' for empty, 'B' for the presence of a black disk and 'W' for a white disc.
+I also used structures for the moves so for each square the presence of valid moves is stored as well as the of the directions of such moves.
+This made the process of updating the board easier after a move has been entered and it made checking if an entered move is valid easier as well.
+
+For my implementation of the game I regarded the 8 surrounding tiles/directions of a square as numbers from 0 to 7 in a clockwise motion where:
+    0 - uppermost square
+    1 - upper-right square
+    .
+    .
+    .
+    6 - leftmost square
+    7 - upper-left square
+With this I could check for valid moves for every square one direction at a time by incrementing or decrementing 2 separate iterators through the board.
+I used recursive functions to check for moves and update the board.
+To check for moves starting from an empty square for any player my base cases were:
+    If the indexes within the range of the board return.
+    If the square next to the starting square has a disc of the player's colour or is empty return.
+    If the square contains a disc of the players colour indicate a valid move in the direction and return.
+If none of these were satisfied the square contained a disc of the opponents colour so the indexes were updated and the function called again.
+The process to update the board was similar but because the directions of valid moves was stored only the last case was required.
+
+To manage the game available moves are printed and the user asked to enter a move.
+Once a valid move was entered the board was updated and printed.
+If there are no valid move the turn is passed.
+This is repeated for the second player.
+Until the board is full or there are no valid moves fo either player the game ends.
+
+I chose to compute the 'scores' at the end of the game as there in no need to print them during the game because they aren't indicative of anything.
+The results of the game are printed and appended to othello-results.txt.
