@@ -6,7 +6,6 @@
 #define COMP10050_ASSIGNMENT2_HELP_H
 
 #include <stdio.h>
-#include <stdlib.h>
 
 #define BOARD_SIZE 8
 #define NUM_DIRECTIONS 8
