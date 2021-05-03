@@ -46,6 +46,7 @@ int main() {
     printBoard(board); //Print the board
     computeMoves(board, p[0].colour); //Compute the moves for the the player moving the black pieces
     printMoves(board, p[0].name); //Print the available moves for the player moving the black pieces
+    puts("");
     computeMoves(board, p[1].colour); //Compute the moves for the the player moving the white pieces
     printMoves(board, p[1].name); //Print the available moves for the player moving the black pieces
     return 0;
