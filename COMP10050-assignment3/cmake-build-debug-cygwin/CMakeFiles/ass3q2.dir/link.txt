@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ass3q2.dir/ass3q2.c.o CMakeFiles/ass3q2.dir/corrected_avg_and_max.c.o  -o ass3q2.out -Wl,--out-implib,libass3q2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /usr/lib/libcunit.dll.a 

@@ -1,0 +1,11 @@
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q6a.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q5.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q4.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q3.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q6b.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q2.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q6c.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/ass3q1.dir
+/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/CMakeFiles/COMP10050_assignment3.dir

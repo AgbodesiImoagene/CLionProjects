@@ -1,0 +1,10 @@
+project(CLionProjects C)
+
+set(CMAKE_C_STANDARD 11)
+
+find_library(CUNIT libcunit.dll.a C:/cygwin64/lib)
+include_directories(C:/cygwin64/usr/include/CUnit .)
+
+add_executable(CLionProjects avg_and_max.h avg_and_max.c ass3q1.c ass3q1.h)
+
+target_link_libraries(COMP10050_assignment3 PUBLIC ${CUNIT})

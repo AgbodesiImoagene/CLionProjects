@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ass3q6c.dir/ass3q6c.c.o CMakeFiles/ass3q6c.dir/euclid.c.o  -o ass3q6c.out -Wl,--out-implib,libass3q6c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /usr/lib/libcunit.dll.a 

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="COMP10050_assignment3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q6a">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q6a.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q6a"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q6a/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q6a.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q6a/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q5">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q5.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q5"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q5/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q5.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q5/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q4">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q4.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q4"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q4/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q4.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q4/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q3">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q3.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q3"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q3/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q3.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q6b">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q6b.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q6b"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q6b/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q6b.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q6b/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q2">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q2"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q2/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q6c">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q6c.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q6c"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q6c/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q6c.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q6c/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q1">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q1"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ass3q1/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/ass3q1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 ass3q1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP10050_assignment3">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/COMP10050_assignment3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 COMP10050_assignment3"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COMP10050_assignment3/fast">
+				<Option output="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/COMP10050_assignment3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cygwin64/usr/include/CUnit"/>
+					<Add directory="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 COMP10050_assignment3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/cmake-build-debug-cygwin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q1.c">
+			<Option target="ass3q1"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q1.h">
+			<Option target="ass3q1"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q2.c">
+			<Option target="ass3q2"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q2.h">
+			<Option target="ass3q2"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q3.c">
+			<Option target="ass3q3"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q3.h">
+			<Option target="ass3q3"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q4.c">
+			<Option target="ass3q4"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q4.h">
+			<Option target="ass3q4"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q5.c">
+			<Option target="ass3q5"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q5.h">
+			<Option target="ass3q5"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q6a.c">
+			<Option target="ass3q6a"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q6a.h">
+			<Option target="ass3q6a"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q6b.c">
+			<Option target="ass3q6b"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q6b.h">
+			<Option target="ass3q6b"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q6c.c">
+			<Option target="ass3q6c"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/ass3q6c.h">
+			<Option target="ass3q6c"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/avg_and_max.c">
+			<Option target="ass3q3"/>
+			<Option target="ass3q1"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/avg_and_max.h">
+			<Option target="ass3q3"/>
+			<Option target="ass3q1"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/corrected_avg_and_max.c">
+			<Option target="ass3q4"/>
+			<Option target="ass3q2"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/corrected_avg_and_max.h">
+			<Option target="ass3q4"/>
+			<Option target="ass3q2"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/euclid.c">
+			<Option target="ass3q6a"/>
+			<Option target="ass3q6b"/>
+			<Option target="ass3q6c"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/euclid.h">
+			<Option target="ass3q6a"/>
+			<Option target="ass3q6b"/>
+			<Option target="ass3q6c"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/fact.c">
+			<Option target="ass3q5"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/fact.h">
+			<Option target="ass3q5"/>
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/main.c">
+			<Option target="COMP10050_assignment3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/agbod/CLionProjects/COMP10050-assignment3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
