@@ -10,6 +10,9 @@
 //Function to initialise board
 void initBoard(square arr[][BOARD_SIZE]);
 
+//Function to print scores
+void printScores(square arr[][BOARD_SIZE], player x[]);
+
 //Function to print board and return the result of a check for a full board
 int printBoard(square arr[][BOARD_SIZE]);
 

@@ -38,3 +38,5 @@ Until the board is full or there are no valid moves fo either player the game en
 
 I chose to compute the 'scores' at the end of the game as there in no need to print them during the game because they aren't indicative of anything.
 The results of the game are printed and appended to othello-results.txt.
+
+* I decided to add functionality to print the scores after every turn so I dont lose marks needlessly

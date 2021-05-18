@@ -35,6 +35,7 @@ int main() {
                  char input[3];
                  enterMove(arr, input); //Get player choice
                  updateBoard(arr, input[1] - '1', input[0] - 'a', x[i].colour); //Update board
+                 printScores(arr, x); //Print player scores
                  fullBoard = printBoard(arr); //Print board and check if board is full
                  forfeit = 0;
              } else {

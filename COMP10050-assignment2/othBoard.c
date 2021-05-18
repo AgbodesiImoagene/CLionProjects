@@ -20,6 +20,22 @@ void initBoard(square arr[][BOARD_SIZE]) {
     }
 }
 
+void printScores(square arr[][BOARD_SIZE], player x[]) {
+    int bCount = 0, wCount = 0;
+    for (int i = 0; i < BOARD_SIZE; ++i) {
+        for (int j = 0; j < BOARD_SIZE; ++j) {
+            if (arr[i][j].squareChar == 'B') {
+                bCount++;
+            }
+            if (arr[i][j].squareChar == 'W') {
+                wCount++;
+            }
+        }
+    }
+    printf("%s : (%d) \n", x[0].name, bCount);
+    printf("%s : (%d) \n", x[1].name, wCount);
+}
+
 int printBoard(square arr[][BOARD_SIZE]) {
     int fullBoardCheck = 1; //Holds result of check of whether the board is full or not
 
