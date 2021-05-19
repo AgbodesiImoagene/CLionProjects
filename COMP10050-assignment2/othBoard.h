@@ -8,7 +8,7 @@
 #include "help.h"
 
 //Function to initialise board
-void initBoard(square arr[][BOARD_SIZE]);
+time_t initBoard(square arr[][BOARD_SIZE]);
 
 //Function to print scores
 void printScores(square arr[][BOARD_SIZE], player x[]);

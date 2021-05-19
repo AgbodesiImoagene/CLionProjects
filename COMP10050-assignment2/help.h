@@ -6,6 +6,7 @@
 #define COMP10050_ASSIGNMENT2_HELP_H
 
 #include <stdio.h>
+#include <time.h>
 
 #define BOARD_SIZE 8
 #define NUM_DIRECTIONS 8
@@ -39,6 +40,6 @@ void flipSquares(square arr[][BOARD_SIZE], int dir, int x, int y, char colour, i
 int result(square arr[][BOARD_SIZE], player x[]);
 
 //Function to append result to othello-results.txt
-void manageFile(int result, player x[]);
+void manageFile(int result, player x[], time_t *t);
 
 #endif //COMP10050_ASSIGNMENT2_HELP_H

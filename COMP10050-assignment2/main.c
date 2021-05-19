@@ -15,10 +15,10 @@ int main() {
     square board[BOARD_SIZE][BOARD_SIZE]; //Structure array to hold data about the board
 
     initPlayer(p); //Get info from the players and initialise p
-    initBoard(board); //Initialise board
+    time_t t = initBoard(board); //Initialise board
     printBoard(board); //Print the board
     manageGame(board, p);
-    manageFile(result(board, p), p); //Print results to screen and othello-results.txt
+    manageFile(result(board, p), p, &t); //Print results to screen and othello-results.txt
     return 0;
 }
 

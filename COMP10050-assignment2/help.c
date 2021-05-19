@@ -126,18 +126,25 @@ int result(square arr[][BOARD_SIZE], player x[]) {
     }
 }
 
-void manageFile(int result, player x[]) {
+void manageFile(int result, player x[], time_t *t) {
     FILE *fp;
+    char *s = ctime(t);
+    int i = 0;
+    while (s[i] != '\n') {
+        i++;
+    }
+    s[i] = '\0';
 
     if ((fp = fopen("../othello-results.txt", "a")) == 0)  { //Check that file can be opened
         puts("File othello-results.txt could not be opened. ");
     } else {
+        fprintf(fp, "This game started at %s and ended ", s); //Print time
         if (result == 0)  { //Print result to file
-            fprintf(fp, "This game ended with a win for %s(%c) over %s(%c). \n\n", x[0].name, x[0].colour, x[1].name, x[1].colour);
+            fprintf(fp, "with a win for %s(%c) over %s(%c). \n\n", x[0].name, x[0].colour, x[1].name, x[1].colour);
         } else if (result == 1)  {
-            fprintf(fp, "This game ended with a win for %s(%c) over %s(%c). \n\n", x[1].name, x[1].colour, x[0].name, x[0].colour);
+            fprintf(fp, "with a win for %s(%c) over %s(%c). \n\n", x[1].name, x[1].colour, x[0].name, x[0].colour);
         } else {
-            fprintf(fp, "This game ended in a tie between %s(%c) and %s(%c). \n\n", x[0].name, x[0].colour, x[1].name, x[1].colour);
+            fprintf(fp, "in a tie between %s(%c) and %s(%c). \n\n", x[0].name, x[0].colour, x[1].name, x[1].colour);
         }
         puts("The result of this game has been appended to othello-results.txt. ");
     }

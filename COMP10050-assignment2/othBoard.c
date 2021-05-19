@@ -4,7 +4,7 @@
 
 #include "othBoard.h"
 
-void initBoard(square arr[][BOARD_SIZE]) {
+time_t initBoard(square arr[][BOARD_SIZE]) {
     for (int i = 0; i < BOARD_SIZE; ++i) { //Iterate over board
         for (int j = 0; j < BOARD_SIZE; ++j) {
             arr[i][j].squareChar = ' '; //Set squares to empty
@@ -18,6 +18,8 @@ void initBoard(square arr[][BOARD_SIZE]) {
             }
         }
     }
+    time_t t = time(NULL); //Set start time of game
+    return t;
 }
 
 void printScores(square arr[][BOARD_SIZE], player x[]) {
